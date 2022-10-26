@@ -11,6 +11,7 @@ body {
 .container {
   background-color: aqua;
   padding: 0 20px;
+  margin: 50px;
   max-width: 100%;
   width: 300px;
   height: auto;
@@ -33,13 +34,6 @@ div label {
 input {
   outline: none;
   padding: 8px 18px;
-  border-bottom: 2px solid blueviolet;
-}
-select {
-  outline: none;
-  border: none;
-  padding: 8px;
-  margin: 8px 0;
   border-bottom: 2px solid blueviolet;
 }
 a {

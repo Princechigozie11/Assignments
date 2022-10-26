@@ -5,44 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex card design</title>
+    <title>Form</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="flex-1">
-            <img src="./--image/Copy of icon-sedans.svg" alt="icon-1">
-            <h1>SEDANS</h1>
-            <P>
-                Choose a sedans for its affordability and excellent
-                fuel economy. Ideal for cruising in the city or on your
-                next road trip.
-            </P>
-            <button><a href="#" class="btn1">Learn More</a></button>
-        </div>
 
-        <div class="flex-2">
-            <img src="./--image/Copy of icon-suvs.svg" alt="icon-2">
-            <h1>SUVS</h1>
-            <p>
-                Take an SUV for its spacious interior,power, and versatility.
-                Perfect for your next family vacation and off-road adventures.
-            </p>
-            <button><a href="#" class="btn2">Learn More</a></button>
-        </div>
-
-        <div class="flex-3">
-            <img src="./--image/Copy of icon-luxury.svg" alt="icon3">
-            <h1>LUXURY</h1>
-            <P>
-                Cruise in the best car brands without the bloated prices.
-                Enjoy the enhanced comfort of a luxury rental and arrive
-                in style.
-            </P>
-            <button><a href="#" class="btn3">Learn More</a></button>
-        </div>
-    </div>
+    <!--   REGISTRATION PAGE START -->
+    <main class="container">
+        <form>
+            <div>
+                <h1>Register</h1>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName">
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName">
+            </div>
+            <div>
+                <label for="number">phone Number</label>
+                <input type="number" id="number">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <select>
+                    <option>Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div>
+                <label>Date of Birth</label>
+                <input type="date">
+            </div>
+            <div>
+                <label>Select favourite color</label>
+                <input type="color">
+            </div>
+            <button><a href="./--login/index.html" target="_blank">Register</a></button>
+        </form>
+    </main>
+    <!--   END OF REGISTRATION PAGE -->
 </body>
 
 </html>
